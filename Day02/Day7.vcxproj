@@ -134,6 +134,7 @@
     <ClCompile Include="init.cpp" />
     <ClCompile Include="init2.cpp" />
     <ClCompile Include="init3.cpp" />
+    <ClCompile Include="init4.cpp" />
     <ClCompile Include="MyClass.cpp" />
     <ClCompile Include="MyClass2.cpp" />
     <ClCompile Include="MyClass3.cpp" />

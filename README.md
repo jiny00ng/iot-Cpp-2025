@@ -25,9 +25,47 @@
         - protected - 상속받은 클래스에서 접근 가능
     - 멤버 변수(객체의 속성) - private 영역
         - public 메소드를 통해 접근
+            - getter/setter 함수
+            ```
+            class Person {
+            private:
+            std::string name;  // private 멤버 변수
+            public:
+            void setName(std::string newName) { name = newName; }
+            std::string getName() { return name; }
+            }; 
+            ```
     - 멤버함수(메서드 =  객체의 기능) - public 영역
 
-    - 생성자 constructor 
+    - 생성자 Constructor 
         - 생성자 호출로 객체 생성
         - 객체 생성시 구조에 맞는 생성자가 없으면 객체는 생성되지 않음
         - 생성자는 초기화기능에 사용, 오버로딩 가능
+        ```
+        MyClass() { value = 0; }           // 기본 생성자 (Default Constructor)
+        MyClass(int v) : value(v) {}       // 매개변수 생성자 (Parameterized Constructor)
+        MyClass(const MyClass& obj) {      // 복사 생성자 (Copy Constructor)
+        value = obj.value;
+        }
+        ```
+    - 소멸자 Destructor 
+        - 객제가 소멸 될 때 자동으로 실행되는 함수
+        - 동적 메모리 해제에 사용
+        ```
+        ~클래스이름()
+        ```
+
+    - 콜론 초기화(이니셜라이져 리스트)  - 헤드부분 : 멤버 번수(초기화 변수)
+        - 생성자가 실행되기 전 헤드 부분에서 먼저 멤버 변수 초기화
+            1. const 멤버 변수
+            2. 레퍼런스 변수
+            3. 객체 멤버 변수
+            ```
+            class Test {
+            private:
+            int a, b;
+            public:
+            Test(int x, int y) : a(x), b(y) {}  // 콜론 초기화
+            // Test(int x, int y) { a = x; b = y; }  // 일반적인 초기화 (비효율적)
+            };
+            ```
