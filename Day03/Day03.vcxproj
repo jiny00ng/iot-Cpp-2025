@@ -132,6 +132,11 @@
     <ClCompile Include="copyconstruc.cpp" />
     <ClCompile Include="moveCon.cpp" />
     <ClCompile Include="movecon2.cpp" />
+    <ClCompile Include="operator.cpp" />
+    <ClCompile Include="operator2.cpp" />
+    <ClCompile Include="static.cpp" />
+    <ClCompile Include="static2.cpp" />
+    <ClCompile Include="static3.cpp" />
     <ClCompile Include="변환생성자2.cpp" />
     <ClCompile Include="변환생성자3.cpp" />
     <ClCompile Include="변환생성자\변환생성자.cpp" />
