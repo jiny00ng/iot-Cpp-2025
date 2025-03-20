@@ -23,7 +23,7 @@
 //    id = _id;
 //    age = _age;
 //    name = new char[strlen(_name) + 1];         // 동적할당
-//    //name = _name;     // 배열으 선언한 후 대입 연사자를 사용하여 값을 직접 할당할 수 없음
+//    //name = _name;     // 배열을 선언한 후 대입 연사자를 사용하여 값을 직접 할당할 수 없음
 //    strcpy(name, _name);
 //}
 //void MyClass::getData() const {                 // 상수 멤버 함수(모든 멤버들을 상수화시킴)
