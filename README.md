@@ -97,5 +97,16 @@ ClassName(const ClassName& other);
 - C++
 4. friend, static, const
     - friend
+        - 클래스의 멤버가 아니지만 클래스의 private와 protected 멤버에 접근할 수 있는 함수
     - static
+        - 함수가 호출될 때마다 초기화되지 않고, 이전 호출의 값을 유지
+        - 클래스의 모든 객체에서 공유
+        - 클래스의 모든 인스턴스가 하나의 변수를 공유
     - const
+        - 초기화 후 값을 변경 불가
+        - 반드시 생성자에서 초기화
+        ```
+        const int* ptr1;  // 값을 변경할 수 없지만, 포인터는 변경 가능
+        int* const ptr2;  // 포인터는 변경할 수 없지만, 값은 변경 가능
+        const int* const ptr3;  // 포인터와 값 모두 변경할 수 없음
+        ```
