@@ -96,3 +96,6 @@ ClassName(const ClassName& other);
 ## 4일차
 - C++
 4. friend, static, const
+    - friend
+    - static
+    - const

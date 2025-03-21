@@ -32,5 +32,9 @@
 //	p3 = p.add(p2);
 //	p3.showPoint();
 //
+//	Point p4;
+//	p4 = p3;			// 대입 연산자 호출
+//	p4.showPoint();
+//
 //	return 0;
 //}
