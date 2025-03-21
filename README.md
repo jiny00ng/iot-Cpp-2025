@@ -92,3 +92,7 @@ ClassName(const ClassName& other);
     - 주어진 타입을 다른 타입을 변환
     - 입력 매개변수가 하나만 가질 수 있음
     - 암묵적인 변환을 허용하지 않음 - explicit
+
+## 4일차
+- C++
+4. friend, static, const
