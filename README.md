@@ -94,6 +94,7 @@ ClassName(const ClassName& other);
 4. friend, static, const
     - friend
         - 클래스의 멤버가 아니지만 클래스의 private와 protected 멤버에 접근할 수 있는 함수
+        - 연산자 오버로딩에 유용함
     - static
         - 함수가 호출될 때마다 초기화되지 않고, 이전 호출의 값을 유지
         - 클래스의 모든 객체에서 공유
