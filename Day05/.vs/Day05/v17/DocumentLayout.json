@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\source\\iot-Cpp-2025\\Day05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A206A53-AC2C-4EB6-8581-D5D9F74E8597}|Day05.vcxproj|C:\\source\\iot-Cpp-2025\\Day05\\inheritance.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A206A53-AC2C-4EB6-8581-D5D9F74E8597}|Day05.vcxproj|solutionrelative:inheritance.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A206A53-AC2C-4EB6-8581-D5D9F74E8597}|Day05.vcxproj|C:\\source\\iot-Cpp-2025\\Day05\\inheritance2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A206A53-AC2C-4EB6-8581-D5D9F74E8597}|Day05.vcxproj|solutionrelative:inheritance2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "inheritance.cpp",
+              "DocumentMoniker": "C:\\source\\iot-Cpp-2025\\Day05\\inheritance.cpp",
+              "RelativeDocumentMoniker": "inheritance.cpp",
+              "ToolTip": "C:\\source\\iot-Cpp-2025\\Day05\\inheritance.cpp",
+              "RelativeToolTip": "inheritance.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T00:24:13.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "84023a64-3497-4e1e-9234-1334cd64d209",
+        "Display": 0,
+        "X": 478,
+        "Y": 81,
+        "Width": 750,
+        "Height": 780,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "inheritance2.cpp",
+              "DocumentMoniker": "C:\\source\\iot-Cpp-2025\\Day05\\inheritance2.cpp",
+              "RelativeDocumentMoniker": "inheritance2.cpp",
+              "ToolTip": "C:\\source\\iot-Cpp-2025\\Day05\\inheritance2.cpp",
+              "RelativeToolTip": "inheritance2.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T01:15:05.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
