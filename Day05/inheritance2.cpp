@@ -1,5 +1,5 @@
 ﻿///*
-//
+//    protected 접근제어는 상속받은 자식이 접근 가능
 //*/
 //#include <iostream>  // 표준 입출력 라이브러리 포함
 //#include <string>    // 문자열 처리를 위한 string 라이브러리 포함
@@ -7,7 +7,7 @@
 //
 //// 부모 클래스: Human
 //class Human {
-//private:
+//protected:
 //    string name;  // 이름 (문자열 타입)
 //    int age;      // 나이
 //public:
@@ -32,7 +32,8 @@
 //
 //    // 학생 정보를 출력하는 함수 (멤버 변수를 변경하지 않으므로 const 사용)
 //    void showStudent() const {
-//        cout << "학번: " << studentID << endl;
+//        cout << "이름: " << name << " , 나이: " << age;
+//        cout << ", 학번: " << studentID << endl;
 //    }
 //};
 //
