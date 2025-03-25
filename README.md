@@ -129,7 +129,7 @@ ClassName(const ClassName& other);
     - 가상 소멸자와 참조자의 참조 가능성
 
 ## 6일차 
-7. 
+7. 포인터
 8. STL(Standard Template Library)
 - container : 객체를 저장하고 관리하는 **자료구조**
     - 시퀀스 컨테이너
