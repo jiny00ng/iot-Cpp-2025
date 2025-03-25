@@ -132,10 +132,13 @@
     <ClCompile Include="dynamic_cast.cpp" />
     <ClCompile Include="dynamic_cast2.cpp" />
     <ClCompile Include="reinterptet.cpp" />
+    <ClCompile Include="shared_ptr.cpp" />
     <ClCompile Include="tempobj.cpp" />
     <ClCompile Include="tempobj2.cpp" />
     <ClCompile Include="tempobj3.cpp" />
     <ClCompile Include="unique_ptr.cpp" />
+    <ClCompile Include="weak_ptr.cpp" />
+    <ClCompile Include="weak_ptr2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

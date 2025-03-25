@@ -127,3 +127,14 @@ ClassName(const ClassName& other);
             - 포인터 자료형을 기준으로 판단
             - 실제 가리키는 객체 자료형을 기준으로 판단하지 않음
     - 가상 소멸자와 참조자의 참조 가능성
+
+## 6일차 
+7. 
+8. STL(Standard Template Library)
+- container : 객체를 저장하고 관리하는 **자료구조**
+    - 시퀀스 컨테이너
+        - 선형적(순서)으로 데이터 저장. vector, list, queue
+    - 연관 컨테이너
+        - 일정한 규칙에 따라 저장. set. multiset, map, multimap
+    - 컨테이너 어댑터
+        - 변형
