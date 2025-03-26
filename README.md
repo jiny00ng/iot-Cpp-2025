@@ -138,3 +138,8 @@ ClassName(const ClassName& other);
         - 일정한 규칙에 따라 저장. set. multiset, map, multimap
     - 컨테이너 어댑터
         - 변형
+
+## 7일차
+9. DB연결
+- MySQL 연동
+
