@@ -1,3 +1,4 @@
-﻿  DB2.cpp
-C:\source\iot-Cpp-2025\DB\DB2.cpp(32,24): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+﻿  DB.cpp
   DB.vcxproj -> C:\source\iot-Cpp-2025\DB\x64\Debug\DB.exe
+  'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+  배치 파일이 아닙니다.
