@@ -14,12 +14,12 @@ void Inventory::showAll() const {
     // 헤더 출력
     cout << left
         << setw(10) << "ID"
-        << setw(10) << "가격"
+        << setw(15) << "가격(원)" 
         << setw(15) << "제조사"
         << setw(25) << "제목"
         << setw(15) << "저자"
         << endl;
-    cout << string(70, '-') << endl;
+    cout << string(75, '-') << endl;
 
     // 각 상품 출력
     for (auto p : products) {

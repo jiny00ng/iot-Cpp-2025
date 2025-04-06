@@ -13,7 +13,7 @@ Product::Product(string id, int price, string producer)
 void Product::showInfo() const {
     cout << left
         << setw(10) << id        // ID 10칸 정렬
-        << setw(10) << price     // 가격 10칸 정렬
+        << setw(15) << price      // 가격 10칸 정렬
         << setw(15) << producer; // 제조사 15칸 정렬
 }
 
